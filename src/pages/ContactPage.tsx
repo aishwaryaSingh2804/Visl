@@ -36,7 +36,7 @@ export function ContactPage() {
       <div className="contact-alt-card" style={{ gridColumn: 'span 2' } as CSSProperties}>
         <div className="contact-alt-icon">🏠</div>
         <div className="contact-alt-h">Registered Office</div>
-        <p className="contact-alt-p">Visl AI Pvt. Ltd. · [Address, City, State, PIN] · India · CIN: [XXXXXXXXX]</p>
+        <p className="contact-alt-p">Big Bets Private Limited · [Address, City, State, PIN] · India · CIN: [XXXXXXXXX]</p>
       </div>
     </div>
   </div>

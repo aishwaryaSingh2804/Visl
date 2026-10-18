@@ -159,7 +159,7 @@ export function PrivacyPage() {
             <h2>9. Contact Us</h2>
             <p>
               Email: <strong>privacy@visl.ai</strong> · Response within 30 days
-              · Visl AI is a product of Visl AI Pvt. Ltd., registered in India.
+              · Visl AI is a product of Big Bets Private Limited, registered in India.
             </p>
           </div>
         </div>

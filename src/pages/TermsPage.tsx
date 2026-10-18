@@ -65,7 +65,7 @@ export function TermsPage() {
               grant Visl a limited, non-exclusive licence to store and process
               your content solely for the purpose of providing the Service.
               Visl&apos;s platform, models, and interface remain the
-              intellectual property of Visl AI Pvt. Ltd.
+              intellectual property of Big Bets Private Limited.
             </p>
           </div>
 
@@ -82,7 +82,7 @@ export function TermsPage() {
           <div className="legal-section">
             <h2>6. Limitation of Liability</h2>
             <p>
-              To the fullest extent permitted by law, Visl AI Pvt. Ltd. shall
+              To the fullest extent permitted by law, Big Bets Private Limited shall
               not be liable for any indirect, incidental, or consequential
               damages arising from your use of the Service. Our total liability
               shall not exceed the amount paid by you in the three months
