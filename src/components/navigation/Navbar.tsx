@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { ROUTES } from '../../lib/routes';
+import { GOOGLE_FORM_URL } from '../../constants';
 
 type SectionNavItem = {
   label: string;
@@ -194,21 +195,25 @@ export function Navbar() {
 
         {/* RIGHT SIDE ACTIONS */}
         <div className="vivi-navbar-actions">
-          <Link
-            to="/coming-soon"
-            className="vivi-navbar-login"
-            onClick={closeMenu}
-          >
-            Log in
-          </Link>
+          <a
+    href={GOOGLE_FORM_URL}
+    className="vivi-navbar-login"
+    onClick={closeMenu}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Log in
+  </a>
 
-          <Link
-            to="/coming-soon"
-            className="vivi-navbar-signup"
-            onClick={closeMenu}
-          >
-            Sign up
-          </Link>
+          <a
+    href={GOOGLE_FORM_URL}
+    className="vivi-navbar-signup"
+    onClick={closeMenu}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Sign up
+  </a>
         </div>
       </div>
     </header>
